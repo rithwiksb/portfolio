@@ -62,6 +62,10 @@ function App() {
       <svg className="bg-floating-shape" style={{ left: '50vw', top: '5vh', width: 48, height: 48 }}>
         <polygon points="24,0 48,48 0,48" fill="#39ff14" />
       </svg>
+      
+      {/* Navbar outside of motion div */}
+      <Navbar />
+      
       {/* Main Content with Framer Motion Animation */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
@@ -69,7 +73,6 @@ function App() {
         transition={{ duration: 1 }}
         style={{ position: "relative", zIndex: 1 }}
       >
-        <Navbar />
         <div className="main-content">
           <Hero />
           <Education />
