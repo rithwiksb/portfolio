@@ -9,7 +9,7 @@ const Skills = () => {
     },
     {
       category: "Frameworks/Libraries",
-      skills: ["HTML5", "CSS3", "React", "ReactJS", "Scikit-Learn", "FastAPI", "Flask"]
+      skills: ["HTML5", "CSS3", "ReactJS", "Scikit-Learn", "FastAPI", "Flask"]
     },
     {
       category: "Technologies",
