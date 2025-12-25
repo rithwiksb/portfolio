@@ -13,11 +13,11 @@ const Skills = () => {
     },
     {
       category: "Technologies",
-      skills: ["NoSQL", "RESTful APIs", "PostgreSQL", "Linux", "Git/GitHub", "LangChain", "AWS", "Docker"]
+      skills: ["NoSQL", "RESTful APIs", "PostgreSQL", "Linux", "Git/GitHub", "LangChain", "AWS", "Docker", "Kubernetes", "GitHub Actions"]
     },
     {
       category: "Concepts",
-      skills: ["Machine Learning", "Generative AI", "Data Structures and Algorithms (DSA)", "Object Oriented Programming (OOPs)", "Operating Systems (OS)", "Database Management System (DBMS)", "CI/CD Pipelines"]
+      skills: ["Machine Learning", "Generative AI", "Data Structures and Algorithms (DSA)", "Object Oriented Programming (OOPs)", "Operating Systems (OS)", "Database Management System (DBMS)", "CI/CD Pipelines", "System Design"]
     }
   ];
 
